@@ -1,0 +1,284 @@
+
+body
+{
+	position: absolute;
+    width: 100%;
+    min-width: 619px;
+    margin: auto;
+	padding: 20px;
+    text-align: justify;
+	background: url(Carpet.png) repeat;
+}
+
+
+#outcontainer
+{
+	float: left;
+    margin: 0 auto;
+   
+	width: 1000px;
+	background: #fff;
+    border: 3px solid #000;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 100%;
+	background: #fcf;
+    padding-left: 30px;
+}
+
+#storycontainer
+{
+	position: relative;
+	margin: 1em auto;
+	width: 820px;
+    padding: 10px 0
+	background: #fff;
+	
+}
+
+#header
+{
+	background: #fff;
+	padding: 5px 80px;
+}
+
+#header h1 { margin: 0; }
+
+
+#titlecontainer
+{
+	float: right;
+	width: 900px;
+	text-align: center;
+	background: #fff;
+    
+}
+
+#title
+{
+	float: center;
+    padding: 0 80px;
+	width: 800px;
+	background: #fff;
+    
+}
+
+#navigation
+{
+	float: left;
+    padding: 0px 0px;
+	width: 100%;
+	background: #fff;
+}
+
+#navigation ul
+{
+	margin: 0;
+	padding: 0 40px;
+}
+
+#navigation ul li
+{
+	list-style-type: none;
+  
+	display: inline;
+}
+
+#navigation li a
+{
+	display: block;
+	float: left;
+	padding:1px 2em;
+	color: green;
+	text-decoration: none;
+	border-right: 1px solid #fff;
+}
+
+#navigation li a:hover { background: #e2fce0;}
+
+#content-container1
+{
+	position: absolute;
+	width: 100%;
+	background: #fff;
+}
+
+#content-container2
+{
+	float: left;
+	width: 100%;
+	background: blue;
+    background: #fff
+}
+
+
+#section-navigation ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+#section-navigation ul li
+{
+	padding: 0;
+	list-style-type: none;
+}
+
+#Boxnavigation li a
+{
+	display: block;
+	float: left;
+	hover { background: red}
+	color: green;
+	text-decoration: none;
+	
+}
+
+#Box1
+{
+	float: left;
+    text-align: left;
+    font-style: italic;
+	width: 22%;
+	padding: 0px 0;
+	margin: 0 2%;
+    background: #cff
+    border: 1px solid #ccf;}
+
+#Box2
+    {
+	
+    float: left;
+    text-align: left;
+    font-style: italic;
+	width: 20%;
+	padding: 0px 0;
+	margin: 0 2%;
+    background: #fff
+    border: 1px solid #fff;
+    }
+    
+}
+
+
+#content h2 { margin: 0; }
+
+
+
+#Box3
+{
+	float: right;
+    text-align: left;
+	width: 22%;
+    padding: 0px 0px;
+	margin: 0 0%;
+	background: #fff;
+	    
+ 
+}
+
+#Box4
+{
+	float: right;
+    text-align: left;
+	width: 22%;
+    border-left: 3px solid black;
+	padding-left:20px;
+	background: #fff;
+ 
+	
+}
+
+#Box5
+{
+	float: right;
+    text-align: left;
+	width: 43%;
+    margin: 0 2%;
+	padding: 0px 0;
+	background: #fff;
+    border: 1px solid #fff;
+	
+}
+
+#Box6
+{
+	float: left;
+    text-align: left;
+	width: 48%;
+	padding: 0px 0;
+	margin: 0 2%;
+    background: #cff
+    border: 1px solid #ccf;}
+
+#p.l 
+{   
+    text-align: left;
+    line-height: 48px;
+    }
+    
+p.mid {
+    text-align: center;
+    }
+    
+#h4 h3 {margin: 0 0;
+        }
+ol{list-style:url(pixelshim.gif) inside}
+ul {list-style-type: none;}
+li.lit {font-family: Verdana; font-size: 10pt; line-height: 8em;
+}
+
+a.in {text-indent: 2em; padding-right:50px; padding-left:50px}
+a:link {color:green; text-decoration:none}
+a:hover {color:red; text-decoration:none}
+a:visited {color:#006633; text-decoration:none}
+
+p.in {text-align:justify; padding-right:50px; padding-left:50px}
+
+#date
+{ 
+   
+	bottom: 90px;
+	width: 99%;
+	text-align: center; 
+    
+	}
+
+
+#author
+	{
+	float: bottom;
+    float: right;
+	bottom: 150px;
+	width: 350px;
+	text-align: left;
+    padding-right: 80px;
+    clear: both;
+	background: #FFF;
+    margin: 0 0 0 0px;
+}
+
+#stars
+	{
+	
+	bottom: 90px;
+	width: 99%;
+	text-align: center;
+    font-color: green;
+    clear: both;
+	background: #FFF;
+    margin: 0 0 0 0px;
+}
+
+#footer
+{
+	clear: both;
+	background: #fff;
+	text-align: center;
+	padding: 20px;
+	height: 1%;
+}
+
